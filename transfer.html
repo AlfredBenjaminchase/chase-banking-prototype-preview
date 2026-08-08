@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transfer — Alfred Benjamin</title>
+    <style>
+      body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif;background:#e9ecf2;padding:24px}
+      .phone-frame{max-width:420px;margin:0 auto;border-radius:20px;overflow:hidden;background:#fff}
+      .nav{display:flex;gap:8px;padding:12px;background:#112233}
+      .nav a{color:#cfe6ff;text-decoration:none;padding:8px 10px;border-radius:8px;font-weight:600}
+      .nav a.active{background:#0f4f8a;color:#fff}
+      .content{padding:18px}
+      label{display:block;font-weight:700;margin-top:12px}
+      input,select{width:100%;padding:10px;border-radius:10px;border:1px solid #d8dce4;margin-top:6px}
+      button{margin-top:14px;padding:12px;width:100%;background:#1c2b45;color:#fff;border:none;border-radius:10px;font-weight:700}
+    </style>
+  </head>
+  <body>
+    <div class="phone-frame">
+      <div class="nav">
+        <a href="accounts.html">Accounts</a>
+        <a href="transfer.html" class="active">Transfer</a>
+        <a href="payments.html">Payments</a>
+        <a href="cards.html">Cards</a>
+        <a href="statements.html">Statements</a>
+        <a href="settings.html">Settings</a>
+        <a href="support.html">Support</a>
+        <a href="help.html">Help</a>
+      </div>
+      <div class="content">
+        <h3>Move money</h3>
+        <form>
+          <label>From account</label>
+          <select><option>Chase Checking •••8991</option><option>Chase Savings •••1024</option></select>
+          <label>To</label>
+          <select><option>External bank (add)</option><option>Chase Savings •••1024</option></select>
+          <label>Amount</label>
+          <input placeholder="$0.00" />
+          <label>Memo (optional)</label>
+          <input placeholder="Rent, transfer, etc." />
+          <button type="button">Submit transfer</button>
+        </form>
+        
+        <p style="margin-top:12px"><a href="banking-app-prototype-preview.html">Sign out</a></p>
+      </div>
+    </div>
+  </body>
+</html>
