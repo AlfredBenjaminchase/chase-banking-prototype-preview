@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accounts — Alfred Benjamin</title>
+    <style>
+      /* minimal reused styles from the prototype */
+      body{margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',sans-serif;background:#e9ecf2;padding:24px}
+      .phone-frame{max-width:420px;margin:0 auto;border-radius:20px;overflow:hidden;background:#1c2b45;color:#fff}
+      .nav{display:flex;gap:8px;padding:12px;background:#112233}
+      .nav a{color:#cfe6ff;text-decoration:none;padding:8px 10px;border-radius:8px;font-weight:600}
+      .nav a.active{background:#0f4f8a;color:#fff}
+      .content{background:#f4f5f8;color:#1c2b45;padding:18px;border-radius:0 0 18px 18px}
+      .account-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #e2e5ec}
+      .account-name{font-weight:700;color:#1c2b45}
+      .muted{color:#7a8494}
+    </style>
+  </head>
+  <body>
+    <div class="phone-frame">
+      <div class="nav">
+        <a href="accounts.html" class="active">Accounts</a>
+        <a href="transfer.html">Transfer</a>
+        <a href="payments.html">Payments</a>
+        <a href="cards.html">Cards</a>
+        <a href="statements.html">Statements</a>
+        <a href="settings.html">Settings</a>
+        <a href="support.html">Support</a>
+        <a href="help.html">Help</a>
+      </div>
+      <div style="padding:14px 18px;background:linear-gradient(180deg,#1c2b45,#142033)">
+        <div style="font-weight:700;font-size:16px">Alfred Benjamin (...8991)</div>
+        <div style="margin-top:8px;color:#9fb0cc">Available balance • <strong>$4,017,250.00</strong></div>
+      </div>
+      <div class="content">
+        <h3>Accounts</h3>
+        <div class="account-row">
+          <div>
+            <div class="account-name">Chase Checking</div>
+            <div class="muted">Account • •• 8991</div>
+          </div>
+          <div style="font-weight:700">$2,017,250.00</div>
+        </div>
+        <div class="account-row">
+          <div>
+            <div class="account-name">Chase Savings</div>
+            <div class="muted">Account • •• 1024</div>
+          </div>
+          <div style="font-weight:700">$2,000,000.00</div>
+        </div>
+        <h4 style="margin-top:18px">Recent activity</h4>
+        <div class="account-row">
+          <div>
+            <div class="muted">08/29 · Payroll deposit</div>
+            <div>Employer direct deposit</div>
+          </div>
+          <div style="font-weight:700;color:green">+ $2,000.00</div>
+        </div>
+        <p style="margin-top:16px;color:#7a8494">Tap a transaction for more details.</p>
+        <p style="margin-top:12px"><a href="banking-app-prototype-preview.html">Sign out</a></p>
+      </div>
+    </div>
+  </body>
+</html>
